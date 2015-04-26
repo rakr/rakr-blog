@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: bundle exec middleman server
+  volumes:
+    - .:/middleman
+  ports:
+    - "4567:4567"
